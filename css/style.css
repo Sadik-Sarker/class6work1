@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.overflow {
+  overflow: hidden; /* overflow hidden common css */
+}
+header {
+  overflow: hidden;
+  padding: 30px 0;
+  border: 1px solid #8282bb;
+  border-style: outset;
+}
+.logo {
+  width: 40%;
+  float: left;
+}
+.logo a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #157878;
+  margin-left: 150px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px red;
+}
+nav {
+  width: 60%;
+  float: left;
+  text-align: center;
+  padding-top: 6px;
+}
+nav a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #157878;
+  padding: 10px 10px;
+  margin-left: 40px;
+}
+nav a:hover {
+  color: aqua;
+  border-top: 1px solid aqua;
+  border-bottom: 1px solid aqua;
+  transition: 0.5s;
+  text-shadow: 2px 2px 2px black;
+}
+.first {
+  margin-bottom: 20px;
+}
+.first .box1 {
+  width: 80%;
+  min-height: 100px;
+  background-color: orange;
+  float: left;
+  text-align: center;
+}
+.first .box2 {
+  width: 20%;
+  min-height: 100px;
+  background-color: yellow;
+  float: left;
+  text-align: center;
+}
+.second {
+  margin-bottom: 20px;
+}
+.second .box1 {
+  width: 33.33%;
+  min-height: 100px;
+  background-color: blue;
+  float: left;
+  text-align: center;
+}
+.second .box2 {
+  width: 33.33%;
+  min-height: 100px;
+  background-color: green;
+  opacity: 0.7;
+  float: left;
+  text-align: center;
+}
+.second .box3 {
+  width: 33.33%;
+  min-height: 100px;
+  background-color: red;
+  float: left;
+  text-align: center;
+}
+.third {
+  margin-bottom: 20px;
+}
+.third .box1 {
+  width: 50%;
+  min-height: 100px;
+  background-color: yellow;
+  float: left;
+  text-align: center;
+}
+.third .box2 {
+  width: 50%;
+  min-height: 100px;
+  background-color: orange;
+  float: left;
+  text-align: center;
+}
+.four {
+  margin-bottom: 20px;
+}
+.four .box1 {
+  width: 20%;
+  min-height: 500px;
+  background-color: green;
+  float: left;
+  text-align: center;
+}
+.four .box2 {
+  width: 60%;
+  min-height: 500px;
+  background-color: red;
+  float: left;
+  text-align: center;
+  background-image: url(../images/akshay1.jpg);
+  background-repeat: no-repeat;
+}
+.four .box2 span {
+  color: #fff;
+  font-size: 40px;
+}
+.four .box3 {
+  width: 20%;
+  min-height: 500px;
+  background-color: green;
+  float: left;
+  text-align: center;
+}
+.five {
+  margin-bottom: 20px;
+}
+.five .box1 {
+  width: 25%;
+  min-height: 100px;
+  background-color: blue;
+  float: left;
+  text-align: center;
+}
+.five .box2 {
+  width: 25%;
+  min-height: 100px;
+  background-color: cyan;
+  float: left;
+  text-align: center;
+}
+.five .box3 {
+  width: 25%;
+  min-height: 100px;
+  background-color: #157878;
+  float: left;
+  text-align: center;
+}
+.five .box4 {
+  width: 25%;
+  min-height: 100px;
+  background-color: purple;
+  float: left;
+  text-align: center;
+}
+.advance1 {
+  margin: auto;
+}
+.item {
+  width: 33.33%;
+  float: left;
+  box-sizing: border-box;
+}
+.advance1 .item .photo {
+  padding: 0 5px;
+}
+.advance1 .item h3 {
+  text-align: center;
+  padding: 10px;
+}
+.advance1 .item p {
+  text-align: center;
+  padding: 10px;
+  font-size: 17px;
+}
+.advance1 .item .photo img {
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 5px 8px 10px #888888;
+}
+.button {
+  margin: 30px 0;
+  text-align: center;
+}
+.button a {
+  text-decoration: none;
+  color: rgb(245, 241, 241);
+  background-color: #157878;
+  padding: 12px 30px;
+  transition: 0.5s;
+  border-radius: 100px;
+  font-size: 25px;
+  border: 1px solid aqua;
+}
+.button a:hover {
+  color: #157878;
+  background-color: aqua;
+  border: 2px solid #157878;
+  box-shadow: 0px 2px 5px 5px #157878;
+}
+.advance2 {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.advance2 .items {
+  padding: 5px;
+  width: 33.33%;
+}
+.advance2 .items .photo {
+}
+.advance2 .items h3 {
+  text-align: center;
+  margin-top: 10px;
+}
+.advance2 .items p {
+  margin: 10px;
+  font-size: 18px;
+}
+.advance2 .items .photo img {
+  border-radius: 5px;
+  max-width: 100%;
+  box-shadow: 5px 8px 10px #888888;
+}
+.social {
+  padding: 20px 0;
+}
+.social ul {
+  text-align: center;
+}
+.social ul li {
+  display: inline-block;
+}
+.social ul li a {
+  text-decoration: none;
+  padding: 10px 30px;
+}
+.social ul li a i {
+  font-size: 30px;
+  color: #157878;
+  transition: 0.5s;
+}
+.social ul li a i:hover {
+  color: aqua;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px 5px #157878;
+}
+footer p {
+  text-align: center;
+  font-size: 20px;
+  color: #157878;
+}
